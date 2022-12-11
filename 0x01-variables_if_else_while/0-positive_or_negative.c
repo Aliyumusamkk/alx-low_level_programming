@@ -5,9 +5,9 @@
 /**
  * main - print a random num
  *
- * return: 0
+ * return: 0;
 */
-int main(void);
+int main(void)
 {
 	int n;
 
