@@ -14,5 +14,5 @@ int main(void)
 	puts("\"gramming is like building a multilingual puzzle");
 
 	return (0);
-i
+
 }
