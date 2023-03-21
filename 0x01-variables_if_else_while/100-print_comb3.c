@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point
- * Description: 'rints all possible different combinations of two digits'
- * return: Always 0 (success)
+ * main - main function
+ * Return: 0 if void
  */
 int main(void)
 {
