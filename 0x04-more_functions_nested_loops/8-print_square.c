@@ -1,25 +1,25 @@
-i#include "main.h"
-/**
- *jack_bauer - print every minute
- *
- *
- * Return: Always 0
- */
-void jack_bauer(void)
-{
-	int a;
-	int b;
+#include "main.h"
 
-	for (a = 0; a <= 23; a++)
+/**
+ * print_square - prints a square, followed by a new line;
+ * @size: size of the square
+ */
+void print_square(int size)
+{
+	if (size <= 0)
 	{
-		for (b = 0; b <= 59; b++)
+		_putchar('\n');
+	} else
+	{
+		int i, j;
+
+		for (i = 0; i < size; i++)
 		{
-			_putchar (a / 10 + '0');
-			_putchar (a % 10 + '0');
-			_putchar (':');
-			_putchar (b / 10 + '0');
-			_putchar (b % 10 + '0');
-			_putchar ('\n');
+			for (j = 0; j < size; j++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
 	}
 }
