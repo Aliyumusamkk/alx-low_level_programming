@@ -1,15 +1,11 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
+*_putchar - the character to be printed
+*
+*Return: 1 (success) or -1 (error)
+*/
+int _putchar(char c)
 {
-    print_line(0);
-    print_line(2);
-    print_line(10);
-    print_line(-4);
-    return (0);
+	return (write(1, &c, 1));
 }
