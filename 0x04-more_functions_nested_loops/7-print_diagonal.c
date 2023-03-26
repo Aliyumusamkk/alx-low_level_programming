@@ -5,7 +5,7 @@
  * @n: the int to print
  * Return: always 0
  */
-int print_last_digit(int n)
+void print_last_digit(int n)
 {
 	int lastDigit;
 
