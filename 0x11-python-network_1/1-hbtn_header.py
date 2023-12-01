@@ -14,5 +14,5 @@ def get_x_request_id(url):
         print(f"Error: {e}")
 
 # Input the URL you want to send the request to
-url = input("Enter the URL: ")
-get_x_request_id(url)
+url = input("https://alx-intranet.hbtn.io/status: ")
+get_x_request_id(https://alx-intranet.hbtn.io/status)
